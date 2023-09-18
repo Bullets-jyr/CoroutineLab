@@ -24,10 +24,11 @@ fun main() = runBlocking{
 //        delay(300)
 //        println("receive ${channel.receive()}")
 //    }
-//    for(data in channel) == channel.consumeEach
+
 //    for(data in channel) {
 //        println("receive $data")
 //    }
+
 //    channel.consumeEach {
 //        println("receive $it")
 //    }
